@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#user defined varialble 
+hero="rancho"
+villan="virus"
+echo "three idiots ka hero hai" $hero
+
+#pre defined variable printenv example given below
+echo "current logged in user $USER"
+
+#user defined variable value given by user (user input)
+read -p "rancho ka pura naam kya tha" fullname
+echo "ok uska pura naam tha $fullname"
+
+# argument given with the execution of the script 
+# eg shee_script [0] raju [1] rahul [2] rishi [3]
+
+echo "script ka naam" $0
+echo "first name" $1
+echo "second name" $2
+echo "third name" $3
+echo "$@"
+
+
